@@ -15,6 +15,11 @@
     				  columns: [ { title: "Id", field: "id" }, 
     				               { title: "First name", field: "firstName", nullable:true},
     				               { title: "Surname", field: "surName" },
+    				               { title: "Stret name", field: "streetName" },
+    				               { title: "Stret number", field: "streetNumber" },
+    				               { title: "City", field: "city" },
+    				               { title: "Zip code", field: "zipCode" },
+    				               { title: "Country", field: "country" }
     				                ],
 
 				     dataSource: {
@@ -32,6 +37,11 @@
     	                                    	id: { type: "string" },
     	                                    	firstName: { type: "string" },
     	                                    	surName: { type: "string" },
+    	                                    	streetName: { type: "string" },
+    	                                    	streetNumber: { type: "string" },
+    	                                    	city: { type: "string" },
+    	                                    	zipCode: { type: "string" },
+    	                                    	country: { type: "string" }
     	                                    }
     	                                }
    	                              }    				              

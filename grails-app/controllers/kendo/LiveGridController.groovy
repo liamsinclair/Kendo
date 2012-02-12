@@ -1,6 +1,10 @@
 package kendo
 
+
 class LiveGridController {
+
+	def test(){
+	}
 
 	def list(){
 		render(view: "/livegrid")
@@ -15,7 +19,9 @@ class LiveGridController {
 			count = personCount
 			data = array {
 				personList.each{
-					person id:it.id, firstName: it.firstName, surName:it.surName
+					person id:it.id, firstName: it.firstName, surName:it.surName, streetName: it.address?.streetName?:"",
+							streetNumber: it.address?.streetNumber?:"",zipCode: it.address?.zipCode?:"",city: it.address?.city?:"",
+							country: it.address?.country?.name?:""
 				}
 			}
 		}

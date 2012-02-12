@@ -79,7 +79,11 @@
 			<div id="controller-list" role="navigation">
 			
 				<ul>
+					<li><g:link controller="AutoComplete" action="list">Auto complete</g:link></li>
+					<li><g:link controller="Calendar" action="show">Calendar</g:link></li>
+					<li><g:link controller="ComboBox" action="show">ComboBox</g:link></li>
 					<li><g:link controller="LiveGrid" action="list">Live Grid</g:link></li>					
+					
 				</ul>
 			
 			</div>
