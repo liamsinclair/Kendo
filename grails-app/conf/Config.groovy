@@ -108,6 +108,6 @@ log4j = {
 
 
 grails.plugin.cloudfoundry.username = 'wojciech@pieprzyca.pl'
-grails.plugin.cloudfoundry.password = 'piatka5'
+grails.plugin.cloudfoundry.password = 'fisfisfis1.'
 
 grails.gorm.failOnError = true
